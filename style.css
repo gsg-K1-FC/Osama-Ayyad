@@ -1,0 +1,49 @@
+
+.sec1, .sec2{
+    width: 1300px;
+    height: 470px;
+}
+.sec1 img,.sec2 img{
+    width: 600px;
+    height: 250px;
+    
+    
+}
+.img1{
+    margin-right: 35px;
+}
+.sec-content{
+    margin: 30px;
+}
+.sec1{
+    background-color: #DFE6E9;
+}
+.sec2{
+    background-color: #30336B;
+    color: white;
+}
+p, h1{
+    font-family: sans-serif;
+}
+h1:hover{
+    color: red;
+}
+p::selection{
+    color:white;
+    background-color: goldenrod;
+  }
+  p::after{
+    content: 'Read More >>';
+    color: blue;
+  }
+
+.sec1 p::first-letter{
+    font-size: 25px;
+    color: white;
+    background-color: black;
+  }
+  .sec2 p::first-letter{
+    font-size: 25px;
+    color:blue;
+    background-color: white;
+  }
